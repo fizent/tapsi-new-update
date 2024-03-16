@@ -1,0 +1,578 @@
+:root {
+    --color-p: #545454;
+    --color-butto: #ff5722;
+    --color-head: black;
+    --color-p-button: white;
+    --color-tapsi: rgba(23,26,60,.7);
+    --color-btn-driver: #1974df;
+}
+
+
+* {
+    box-sizing: border-box;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent; 
+    
+}
+
+
+nav, ul {
+    display: flex;
+    padding: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f8f8f8
+
+}
+
+ul {
+    margin-left: 80px;
+
+}
+
+.logo-tapsi-nav {
+    padding: 25px;
+    margin-right: 78px;
+}
+
+
+.li-nav {
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 15px;
+    color: var(--color-p);
+}
+
+.li-nav:hover {
+    color: var(--color-butto);
+}
+
+
+.btn-download {
+    padding: 10px 40px;
+    background-color: var(--color-butto);
+    border-radius: 8px;
+    color: var(--color-p-button);
+    text-decoration: none;
+}
+
+.btn-download:hover {
+    background-color: #ff3c00;
+}
+
+
+.start-background-tapsi {
+    background-image: url(./image/banner.jpg);
+    background-position: center center;
+    height: 73vh;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+
+
+
+.img-mobile-work {
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  top: 36%;
+}
+
+
+.tabsi-box-start {
+  position: absolute;
+  right: 160px;
+  bottom: 20px;
+  margin: 36px;
+  border-radius: 18px;
+  padding: 25px;
+  width: 500px;
+  background-image: linear-gradient(51deg,rgba(23,26,60,.7) 5%,rgba(23,26,60,.3) 95%);
+} 
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-p-button);
+    padding-bottom: 10px;
+}
+
+.tabsi-p-box {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+.all-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.div-btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+
+.btn {
+    background: #fff;
+    border-radius: 12px;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    max-height: 56px;
+    margin: 5px;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+.btn-border {
+    background-color: var(--color-tapsi);
+    border: 1px solid white;
+    color: var(--color-p-button);
+}
+
+
+.div-btn > img {
+    width: 20px;
+}
+
+.section-opption {
+    padding: 6% 10%;
+}
+
+.section-otopake {
+    border: solid #ddd;
+    border-width: 0 0 1px;
+    padding-top: 0px;
+}
+
+.opption-tapsi-h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.all-car {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.a-car {
+    color: var(--color-p);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.a-car:hover{
+    color: var(--color-butto);
+}
+
+
+
+.car {
+    width: 131px;
+    transition: transform 0.5s;
+    
+}
+
+.car:hover {
+    transform: translateX(-50px);
+}
+
+
+.container-opption {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-opption {
+    background-image: url(./image/man-otopake.png);
+    background-size: cover;
+    flex: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+
+
+.text-opption {
+    flex: 1;
+}
+
+.h2-opption {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.p-opption {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+    color: var(--color-p);
+}
+
+
+.container-medical {
+    margin-top: 40px;
+    display: flex;
+
+}
+
+
+.img-special {
+    background-image: url(./image/i-mac.png);
+}
+
+
+
+.a-info-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.5s;
+}
+
+
+.a-info-div:hover {
+    transform: translateX(-20px);
+}
+
+
+.a-information {
+    color: var(--color-butto);
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+
+.btn-saptname {
+    padding-top: 50px;
+    transition: transform 0.5s;
+}
+
+
+.btn-saptname:hover {
+    transform: translateY(-10px);
+}
+
+.h2-special {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.saptname-a-btn{
+    align-items: center;
+    border-radius: 12px;
+    background-color: var(--color-butto);
+    color: var(--color-p-button);
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: inherit;
+
+}
+
+
+.img-medical {
+    background-image: url(./image/macbook.png);
+}
+
+
+.img-middle {
+    background-image: url(./image/parallax.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180px;
+}
+
+
+.container-travel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+    align-items: center;
+} 
+
+.line {
+    background-color: #fff;
+    height: 50px;
+    width: 2px;
+}
+
+.text-travel {
+    padding: 0 10px;
+    text-align: center;
+    color: var(--color-p-button);
+    padding: 0px 60px;
+    flex-wrap: wrap;
+    
+}
+
+.travel-h3 {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.travel-p {
+    display: none;
+    font-size: 16px;
+    margin-top: 15px;
+    
+}
+
+
+.travel-h3:hover ~ .travel-p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container-driver {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-driver {
+    flex: 1;
+    background-image: url(./image/driver.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    min-width: 670px;
+}
+
+
+.h2-driver {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+.p-driver {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: var(--color-p);
+}
+
+
+.h3-driver {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: var(--color-p);
+}
+
+.span-tapsi {
+    color: #0065dc;
+}
+
+.nav-driver {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: var(--color-p);
+}
+
+.btn-driver {
+    background-color: var(--color-btn-driver);
+}
+
+.btn-driver:hover {
+    background-color: #479bfc;
+}
+
+
+
+
+
+
+
+
+.all-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box {
+    min-width: 30%;
+    padding: 20px 20px;
+    min-width: 33%
+  }
+  
+  
+  .box:hover {
+      box-shadow: 0 0 15px rgb(155, 152, 152);
+  }
+  
+  
+  .h3-box {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 10px;
+    color: #333;
+  }
+  
+  .p-box {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 18px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: justify;
+    color: #9b9b9b;
+  }
+  
+  .div-img-box {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .img-box {
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .city-of-iran {
+    background-image: url(./image/map-back.svg);
+    background-color: #f8f8f9;
+    padding: 40px 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .container-list-city {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .tehran {
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 12%;
+  }
+
+  #iran-p {
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+
+
+  
+
+footer {
+    padding: 5% 10%;
+    background-color: var(--color-head);
+    color: var(--color-p-button);
+    
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#main-tapsi {
+    color: #acacac;
+    
+}
+
+
+.logo-footer > p {
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.text-footer > a {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-p-button);
+    line-height: 30px;
+}
+
+.text-footer > a:hover {
+    color: var(--color-butto);
+}
+
+.h3-footer {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text-footer {
+    padding-left: 10px;
+}
+
+
+.joine {
+    display: flex;
+    
+
+}
+
+.joine-box {
+    background-color: white;
+    height: 250px;
+    border-radius: 18px;
+    margin: 0px 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+.p-end {
+    padding-bottom: 40px;
+}
+
+.p-end > p {
+    padding-top: 10px;
+}
+
+
+.p-end > img {
+    padding: 10px;
+}
