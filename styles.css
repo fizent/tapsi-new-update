@@ -346,16 +346,23 @@ h1 {
 .travel-h3 {
     font-size: 20px;
     font-weight: 700;
+    padding-top: 30px;
     
 }
 
 .travel-p {
-    display: none;
+    display: inline;
     font-size: var(--font-p-16px);
     margin-top: var(--margin-15-bottom-top);
-    
+    visibility: hidden;
+    opacity: 0;
 }
 
+.text-travel:hover  .travel-p{
+    display: flex;
+    visibility: visible;
+    opacity: 3;
+}
 
 
 
