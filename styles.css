@@ -1,6 +1,6 @@
 :root {
     --color-p: #545454;
-    --color-butto: #ff5722;
+    --color-button: #ff5722;
     --color-head: black;
     --color-p-button: white;
     --color-tapsi: rgba(23,26,60,.7);
@@ -10,12 +10,12 @@
     --font-size-h2: 35px;
     --font-weight-h2: 700;
     --margin-p: 60px;
-    --font-p-18: 18px;
-    --font-p-16px: 16px;
-    --padding-10: 10px;
-    --padding-50-bottom-top: 50px;
-    --margin-15-bottom-top: 15px; 
-    --margin-20-bottom: 20px;
+    --font-p-medium: 18px;
+    --font-p-small: 16px;
+    --padding-very-small: 10px;
+    --padding-larg-bottom-top: 50px;
+    --margin-small-bottom-top: 15px; 
+    --margin-medium-bottom: 20px;
     --line-height: 32px;
                                             /* بیشتر از 2 بار استفاده شده */
 }
@@ -52,13 +52,13 @@ nav, ul {
 }
 
 .li-nav:hover {
-    color: var(--color-butto);
+    color: var(--color-button);
 }
 
 
 .btn-download {
-    padding: var(--padding-10) 40px;
-    background-color: var(--color-butto);
+    padding: var(--padding-very-small) 40px;
+    background-color: var(--color-button);
     border-radius: 8px;
     color: var(--color-p-button);
     text-decoration: none;
@@ -107,7 +107,7 @@ h1 {
     font-size: 50px;
     font-weight: 700;
     color: var(--color-p-button);
-    padding-bottom: var(--padding-10);
+    padding-bottom: var(--padding-very-small);
 }
 
 .tabsi-p-box {
@@ -133,7 +133,7 @@ h1 {
     color: #000;
     display: flex;
     flex-direction: row;
-    font-size: var(--font-p-16px);
+    font-size: var(--font-p-small);
     max-height: 56px;
     margin: 5px;
     padding: 16px;
@@ -160,7 +160,7 @@ h1 {
 }
 
 .section-opption {
-    padding: var(--padding-50-bottom-top) 0;
+    padding: var(--padding-larg-bottom-top) 0;
 }
 
 .section-otopake {
@@ -181,7 +181,7 @@ h1 {
 .all-car {
     display: flex;
     justify-content: space-between;
-    padding-bottom: var(--padding-50-bottom-top);
+    padding-bottom: var(--padding-larg-bottom-top);
 }
 
 
@@ -189,12 +189,12 @@ h1 {
     color: var(--color-p);
     text-align: center;
     text-decoration: none;
-    font-size: var(--font-p-16px);
+    font-size: var(--font-p-small);
     
 }
 
 .a-car:hover{
-    color: var(--color-butto);
+    color: var(--color-button);
 }
 
 
@@ -233,12 +233,12 @@ h1 {
 .h2-opption {
     font-size: 28px;
     font-weight: 500;
-    margin-bottom: var(--margin-20-bottom);
+    margin-bottom: var(--margin-medium-bottom);
 }
 
 
 .p-opption {
-    font-size: var(--font-p-18);
+    font-size: var(--font-p-medium);
     line-height: var(--line-height);
     margin-bottom: 30px;
     color: var(--color-p);
@@ -274,7 +274,7 @@ h1 {
 
 
 .a-information {
-    color: var(--color-butto);
+    color: var(--color-button);
     font-size: 15px;
     text-decoration: none;
     
@@ -294,13 +294,13 @@ h1 {
 .h2-special {
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
-    margin-bottom: var(--margin-20-bottom);
+    margin-bottom: var(--margin-medium-bottom);
 }
 
 .saptname-a-btn{
     align-items: center;
     border-radius: 12px;
-    background-color: var(--color-butto);
+    background-color: var(--color-button);
     color: var(--color-p-button);
     padding:  var(--padding-bottom);
     text-decoration: none;
@@ -335,7 +335,7 @@ h1 {
 }
 
 .text-travel {
-    padding: 0 var(--padding-10);
+    padding: 0 var(--padding-very-small);
     text-align: center;
     color: var(--color-p-button);
     padding: 0px 60px;
@@ -352,14 +352,15 @@ h1 {
 
 .travel-p {
     display: inline;
-    font-size: var(--font-p-16px);
-    margin-top: var(--margin-15-bottom-top);
+    font-size: var(--font-p-small);
+    margin-top: var(--margin-small-bottom-top);
     visibility: hidden;
 }
 
 .text-travel:hover  .travel-p{
     display: flex;
     visibility: visible;
+    
 }
 
 
@@ -370,7 +371,7 @@ h1 {
 }
 
 .section-driver {
-    padding: 100px 0 var(--padding-50-bottom-top);
+    padding: 100px 0 var(--padding-larg-bottom-top);
 }
 
 .container-drivers {
@@ -389,9 +390,9 @@ h1 {
 
 
 .p-driver {
-    font-size: var(--font-p-18);
+    font-size: var(--font-p-medium);
     line-height: var(--line-height);
-    margin-bottom: var(--margin-20-bottom);
+    margin-bottom: var(--margin-medium-bottom);
     color: var(--color-p);
 }
 
@@ -399,7 +400,7 @@ h1 {
 .h3-driver {
     font-size: 22px;
     font-weight: 500;
-    margin-bottom: var(--margin-20-bottom);
+    margin-bottom: var(--margin-medium-bottom);
     margin-top: 50px;
     color: var(--color-p);
 }
@@ -409,9 +410,9 @@ h1 {
 }
 
 .nav-driver {
-    font-size: var(--font-p-16px);
+    font-size: var(--font-p-small);
     line-height: var(--line-height);
-    margin-bottom: var(--margin-20-bottom);
+    margin-bottom: var(--margin-medium-bottom);
     color: var(--color-p);
 }
 
@@ -431,11 +432,11 @@ h1 {
 
 
 .article-box {
-    padding: var(--padding-50-bottom-top) 0;
+    padding: var(--padding-larg-bottom-top) 0;
 }
 
 .h2-new {
-    margin-bottom: var(--padding-50-bottom-top);
+    margin-bottom: var(--padding-larg-bottom-top);
 }
 
 
@@ -472,7 +473,7 @@ h1 {
     -webkit-line-clamp: 3;                         /* بر اساس موتور جستجو  وب کیت هست که یک نوع موتور چیدمان است  */
     -webkit-box-orient: vertical;
     display: -webkit-box;
-    font-size: var(--font-p-18);
+    font-size: var(--font-p-medium);
     line-height: 25px;
     overflow: hidden;
     text-align: justify;
@@ -506,8 +507,8 @@ h1 {
 
 
 .tehran {
-    font-size: var(--font-p-18);
-    margin-bottom: var(--margin-15-bottom-top);
+    font-size: var(--font-p-medium);
+    margin-bottom: var(--margin-small-bottom-top);
     width: 130px;
 }
 
@@ -555,17 +556,17 @@ footer {
 }
 
 .text-footer > a:hover {
-    color: var(--color-butto);
+    color: var(--color-button);
 }
 
 .h3-footer {
-    font-size: var(--font-p-18);
+    font-size: var(--font-p-medium);
     font-weight: 700;
-    margin-bottom: var(--margin-15-bottom-top);
+    margin-bottom: var(--margin-small-bottom-top);
 }
 
 .text-footer {
-    padding-left: var(--padding-10);
+    padding-left: var(--padding-very-small);
 }
 
 
@@ -594,7 +595,7 @@ footer {
 
 
 .p-end > img {
-    padding: var(--padding-10);
+    padding: var(--padding-very-small);
 }
 
 
